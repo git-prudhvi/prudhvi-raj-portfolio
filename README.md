@@ -41,3 +41,49 @@ Ensure you have the following runtime environment tools installed:
 ```bash
 git clone https://github.com/git-prudhvi/portfolio.git
 cd portfolio
+```
+
+### Step 2: Install Base Dependencies
+```bash
+npm install
+```
+
+### Step 3: Spin Up local Development Servers
+```bash
+npm run dev
+```
+Open [http://localhost:3000](http://localhost:3000) inside your browser to view the live responsive interface.
+
+---
+
+## Architecture / Project Structure
+
+A clean, human-designed directory map displaying separation of concerns across core modules:
+
+```text
+├── src/
+│   ├── components/            # Isolated interactive UI modules
+│   │   ├── About.tsx          # Engineering narrative & bio block
+│   │   ├── Arsenal.tsx        # Seamless opposing looping marquees
+│   │   ├── Certifications.tsx # Validation grid & call-to-actions
+│   │   ├── EasterEggs.tsx     # Graphic sandboxes & crypto decryptors
+│   │   ├── Experience.tsx     # BFSI systems ledger timelines
+│   │   ├── Header.tsx         # Sticky glassmorphism navigator
+│   │   ├── Hero.tsx           # Oversized typographic introductory block
+│   │   └── Projects.tsx       # Interactive project matrix drawers
+│   ├── data/
+│   │   └── developerData.ts   # Unified central developer records
+│   ├── App.tsx                # Base layouts & component orchestrator
+│   ├── index.css              # Custom Tailwind theme definitions & global resets
+│   ├── main.tsx               # Production bootstrap entry point
+│   └── types.ts               # Strict TS interface structures
+├── index.html                 # Parent DOM injection element
+├── package.json               # System configuration & dependencies ledger
+└── tsconfig.json              # Strict TypeScript compiler options
+```
+
+---
+
+## Deployment
+
+This repository is structured for seamless automated integration. Pushing commits directly to the production branch triggers automated atomic deployments via **Vercel** with global CDN caching and instantaneous rollbacks.
