@@ -175,7 +175,7 @@ export default function Certifications() {
             &copy; 2026 CHENNABOINA PRUDHVI RAJ. ALL SYSTEMS ACTIVE.
           </div>
           <div>
-            COMPILED IN GOOGLE AI STUDIO &bull; LOCAL_HOST:3000
+            COMPILED IN BRAIN :) &bull; LOCAL_HOST:3000
           </div>
         </div>
       </div>
